@@ -1,0 +1,451 @@
+- All Kilton Medals
+- Great Plateau:
+  - SoR Clip + Start ToD:
+      color: white
+  - _Material<Flint>:
+      coord: [-954.90, 194.30, 1833.20]
+      comment: For stealing Master Sword
+  - _Equipment::Weapon<Woodcutters Axe>:
+      coord: [-920.93, 220.65, 1871.83]
+  - _Equipment::Weapon<Boko Spear>:
+      coord: [-943.32, 238.76, 1952.53]
+  - _Equipment::Shield<Pot Lid>:
+      coord: [-952.34, 238.33, 1959.44]
+  - _Material<6 Spicy Pepper>:
+      coord: [-964.50, 238.84, 1953.28]
+      comment: "Use these for Food"
+  - _Material<2 Hyrule Shroom>:
+      coord: [-959.16, 238.58, 1966.17]
+      comment: "Scrap"
+
+  - _Chest<Travelers Bow>:
+      coord: [-832.43, 222.00, 1963.11]
+  - _Material<Arrows>:
+      coord: [-821.73, 221.98, 1963.27]
+      comment: ""
+      notes: Shoot 4 by the time we get to Korok Forest
+
+  - BLSS to Bomb Shrine
+  - _Shrine::JaBaij:
+      comment: "Bombs Shrine"
+      counter: ""
+  - Talk to Old Man 2-1-1-2
+
+  - BLSS to Mag
+  - _Shrine::OmanAu:
+      comment: "Magnesis"
+      counter: ""
+  - Optional Hylian Herb:
+      markers:
+      - at: [-685.73, 171.40, 1486.10]
+      color: grey
+  - BLSS to Bomb Arrow Chest:
+      color: white
+  - _Chest<Bomb Arrow>:
+      coord: [-713.00, 190.88, 2311.00]
+      notes: Shoot 4 by the time we get to Korok Forest
+
+  - WB to Stasis:
+      coord: [-850.5,2284.5]
+  - _Shrine::OwaDaim:
+      comment: "Stasis"
+      counter: " "
+  - Ride the boulder and BLSS:
+      movements: 
+      - [-942.10, 273.00, 2327.70]
+      - [-957.25,2311.75]
+      - [-978.25,2292.5]
+      - [-1031.25,2166.75]
+
+  - _Shrine::KehNamut:
+      comment: "Cryo"
+      counter: ""
+  - BLSS to Paraglider:
+      coord: [-813,1976]
+
+- The Glitch:
+  - BLSS to Kak:
+      color: cyan
+
+  - _Chest<Phrenic Bow>
+  - _Material<1 Blue Nightshade>:
+      coord: [1720.91, 323.75, 996.82]
+      notes: Scrap
+      comment: ""
+
+  - .dir(<W)
+  - _Material<2+ Fairy>:
+      comment: ""
+      coord: [1965.43, 269.69, 854.73]
+  - _Material<1 Blue Nightshade>:
+      notes: Get 1 more
+      comment: " "
+  - _Material<3 Endura Carrot>:
+      comment: " "
+      movements:
+      - [1950.35, 270.12, 835.39]
+      - [1977.61, 268.81, 824.60]
+  - _Material<1 Wood>:
+      comment: " "
+
+  - .dir(W)
+  - _Material<Silent Princess>:
+      comment: " "
+      notes: Just 1 for check item
+      coord: [1873.25,813.25]
+
+  - BLSS to Korok Forest
+  - _Equipment::Shield<Forest Dweller's Shield>:
+      comment: " "
+      coord: [449.14, 251.18, -2159.93]
+
+  - .important(Drop Traveler's Bow, Equip Bomb Arrows, Put Woodcutter's Axe in Slot 2)
+  - Steal the Master Sword with Wood + Flint
+  - Inventory check for glitch:
+      notes: 
+      - "Weapons: Spear, Axe, Master Sword"
+      - "Bows: Phrenic Bow, Arrow, Bomb Arrow"
+      - "Shields: Pot Lid, FDS"
+      - "Materials: 2 Shroom, 2 Nightshade, 2 Fairy, 3 Carrot, 1 Princess"
+  - Talk to the Shop Keeper, Trade 4 Orbs for Stamina:
+      comment: Triggers an Autosave to use
+
+
+  - IST:
+      notes: .link([Detailed Instructions]https://docs.google.com/presentation/d/1nQt1a-0GoIxXWo4lrqls-PkAuvTQG1NtLPklqiu1BHE/edit?usp=sharing)
+      icon: maz
+
+  - .dir(S>) to tree + .dir(S.) Super exit + Midairs
+  - Clear Skew, Set up Skew Bounce:
+      movements:
+      - [287,-2027.25]
+      - [-254.25,-1011]
+
+  - SAVE
+  - Blights + Ganon:
+      icon: ganon
+      notes: 
+      - Clear Skew and Ragdoll during Beast
+      - Eat Roasted Carrot and Empty Wild Greens before final shot
+      - .important(After loosing final shot, equip Phrenic Bow before it hits)
+  
+  - Reload into Star save
+  - Sort Bows, Drop all Shields, SAVE
+  - Pick up 2 FDS, Reload:
+      comment: 212 Attack, 10 shot zoom BoL
+
+- Northern Ridgeland:
+  - .dir(S) DEFUSE + .dir(N) midair:
+      movements:
+      - [-266.75,-963.25]
+      - [-282.75,-1027]
+  
+  - BLSS W
+  - _Boss::Talus::Luminous:
+      coord: [-2177.46, 322.30, -1585.39]
+      comment: Upland Lindor
+  
+  - .dir(.E)
+  - _Material<Flint>:
+      coord: [-1534.40, 212.78, -1794.56]
+      comment: " "
+  - _Tod::Night
+  
+  - .dir(NE)
+  - _Boss::Stalnox:
+      coord: [-1273.50, 213.08, -2113.50]
+      comment: Rowan Plain
+      notes: For all Stalnox, 1 BoL to body, 1 BoL to Eye
+  
+  - .dir(E.)
+  - _Boss::Hinox::Blue:
+      coord: [-480.55, 278.99, -2039.64]
+  
+  - .dir(S>)
+  - _Boss::Hinox::Blue:
+      coord: [-752.49, 187.41, -1268.12]
+  
+  - .dir(S)
+  - _Boss::Talus::Rare:
+      coord: [-768.74, 152.76, -804.49]
+      comment: Hyrule Castle West
+  
+  - .dir(NE)
+  - Enter Lockup:
+      coord: [-435,-1120.25]
+  - _Boss::Stalnox:
+      coord: [-491.34, 126.08, -1009.82]
+      comment: Hyrule Castle Underground
+
+
+- Lanayru 1:
+  - _Warp<Exit Castle, -254.75,-591.75>:
+      icon: warp
+      color: lightgreen
+  
+  - .dir(E) + .dir(N)
+  - Enter East Passage:
+      coord: [-101.5,-1147]
+  - _Boss::Talus::Rare:
+      coord: [-136.65, 127.21, -956.26]
+      comments: Hyrule Castle Underground
+  
+  - Glide up into the Library
+  - .dir(E)
+  - _Boss::Stalnox:
+      coord: [256.50, 142.49, -913.50]
+      comment: East Hyrule Castle
+  
+  - .dir(.E)
+  - _Boss::Talus::Luminous:
+      coord: [771.50, 152.53, -1014.00]
+      comment: Crenel Hills
+  
+  - .dir(S.)
+  - _Boss::Hinox::Blue:
+      coord: [626.49, 123.09, -305.54]
+  
+  - .dir(S>)
+  - _Boss::Hinox::Blue:
+      coord: [421.00, 161.27, 329.50]
+      notes: Pick up a Hinox Part
+  
+  - BLSS .dir(E) off tree stump
+  - _Boss::Hinox::Red:
+      coord: [1969.04, 115.44, 97.40]
+  
+  - .dir(<E)
+  - _Boss::Hinox::Black:
+      coord: [2485.10, 152.09, -133.56]
+  
+  - .dir(<E) High
+  - _Boss::Hinox::Blue:
+      coord: [2930.51, 312.54, -298.40]
+      comment: "Rali's Pond"
+  
+  - .dir(E) Far
+  - _Boss::Talus::Luminous:
+      coord: [3992.27, 353.03, -158.82]
+      comment: Southern Tal Tal Peak
+  
+  - .dir(SW)
+  - _Boss::Hinox::Blue:
+      coord: [3526.26, 251.18, 364.97]
+  
+  - BLSS .dir(E), .important(DO NOT LAND)
+  - _Boss::Hinox::Blue:
+      movements:
+      - push
+      - [4442.00, 160.79, 350.94]
+  
+  - Save and Reload:
+      movements:
+      - pop
+
+
+- Lanayru 2 / Necluda Sea:
+  - .dir(<W) Far:
+      color: red
+  - _Boss::Hinox::Blue:
+      coord: [2990.90, 251.39, 787.92]
+  
+  - .dir(<S)
+  - _Boss::Hinox::Red:
+      coord: [3250.94, 268.75, 1331.63]
+  
+  - .dir(S) to Block Korok, BLSS .dir(S)
+  - _Boss::Hinox::Red:
+      movements:
+      - [3277.77, 346.35, 1436.00]
+      - [3210.17, 172.01, 2996.33]
+      - push
+      notes: Shoot from above
+  
+  - .dir(S):
+      notes: .important(DO NOT TOUCH THE FLOOR UNTIL NEXT WARP)
+  - _Boss::Talus::Stone:
+      coord: [3272.52, 133.05, 3409.85]
+      comment: Gama Cove
+  
+  - .dir(E.) midairs
+  - _Boss::Hinox::Blue:
+      coord: [4537.11, 110.76, 3701.95]
+  
+  - .dir(N) midairs
+  - _Boss::Talus::Luminous:
+      coord: [4558.50, 105.41, 2465.00]
+      comment: Mapla Point
+
+
+- Necluda:
+  - Drown:
+      color: pink
+      movements:
+      - pop
+  
+  - .dir(W)
+  - _Boss::Hinox::Blue:
+      coord: [2693.70, 273.89, 2967.57]
+  
+  - .dir(W>)
+  - _Boss::Hinox::Black:
+      coord: [2420.75, 327.47, 2782.60]
+  
+  - .dir(<E)
+  - _Boss::Hinox::Red:
+      coord: [2768.06, 258.13, 2711.58]
+  
+  - .dir(N>) Far
+  - _Boss::Talus::Stone:
+      coord: [3199.41, 173.38, 1904.36]
+      comment: Ovli Plain
+  
+  - .dir(W)
+  - _Boss::Talus::Stone:
+      coord: [2527.50, 242.00, 1904.50]
+      comment: Cliffs of Quince
+  
+  - .dir(N)
+  - _Boss::Hinox::Red:
+      coord: [2414.72, 304.69, 1177.84]
+  
+  - .dir(.W)
+  - _Boss::Talus::Stone:
+      coord: [1465.91, 203.77, 1328.91]
+      comment: North Mable Ridge
+  
+  - .dir(<W) + .dir(S>)
+  - _Boss::Talus::Stone:
+      coord: [1186.62, 254.28, 1642.77]
+      comment: North Dueling Peaks
+  
+  - .dir(E)
+  - _Tod::Night:
+      coord: [1371.5,1670.5]
+  
+  - .dir(E>) + .dir(<S)
+  - _Boss::Stalnox:
+      coord: [1940.50, 144.41, 2396.50]
+      comment: Hickaly Woods
+  
+  - .dir(W>)
+  - _Boss::Talus::Stone:
+      coord: [1257.12, 355.80, 2176.52]
+  
+  - .dir(S)
+  - _Boss::Hinox::Red:
+      coord: [1330.55, 180.38, 2623.94]
+  
+  - .dir(.S)
+  - _Boss::Hinox::Red:
+      coord: [1493.39, 306.77, 3092.14]
+  
+  - .dir(E>) Super
+  - _Boss::Stalnox:
+      coord: [2078.62, 110.22, 3450.66]
+      comment: North Aris Beach
+  
+  - .dir(W>)
+  - _Boss::Talus::Stone:
+      coord: [1690.73, 165.27, 3335.62]
+      comment: Lake Floria
+  
+  - .dir(SW)
+  - _Boss::Talus::Stone:
+      coord: [1392.02, 107.03, 3727.59]
+      comment: "Martha's Landing"
+  
+  - .dir(W>)
+  - _Boss::Hinox::Blue:
+      coord: [1031.43, 127.22, 3496.26]
+  - Pillar:
+      coord: [895.25,3477]
+      icon: diamond
+  
+  - BLSS .dir(W)
+  - _Boss::Stalnox:
+      coord: [100.50, 111.28, 3371.00]
+      comment: Harfin Valley
+  
+  - .dir(<W)
+  - _Boss::Stalnox:
+      coord: [ -1062.00, 275.24, 3771.50]
+      comment: Eastern Daval Peak
+
+  - .dir(N)
+  - _Boss::Talus::Luminous:
+      coord: [-971.13, 355.71, 3236.14]
+      comment: East Mount Granajh
+
+  - BLSS .dir(NE)
+  - _Boss::Talus::Stone:
+      coord: [359.34, 114.45, 1904.01]
+      comment: Deya Lake
+
+  - .dir(NE)
+  - _Boss::Talus::Stone:
+      coord: [705.34, 137.62, 1471.88]
+      comment: West Nabi Lake
+
+  - .dir(<W)
+  - _Boss::Talus::Luminous:
+      coord: [-176.93, 132.59, 1771.62]
+      comment: Lake Hylia North
+
+  - .dir(NW)
+  - _Boss::Talus::Luminous:
+      coord: [-514.75, 127.49, 1181.74]
+      comment: Lake Kolomo
+
+  - .dir(S>)
+  - _Chest<Ice Arrows>:
+      coord: [-775.94, 174.80, 1561.83]
+
+  - .dir(.W)
+  - _Boss::Talus::Stone:
+      coord: [-1087.75, 179.14, 1663.18]
+
+  - .dir(W)
+  - _Boss::Hinox::Blue:
+      coord: [-1704.30, 111.60, 1776.78]
+
+  - .dir(S>) + .dir(<W)
+  - _Boss::Talus::Luminous:
+      coord: [-1896.00, 200.68, 2044.68]
+
+  - .dir(W)
+  - _Boss::Talus::Luminous:
+      coord: [-2277.50, 293.77, 1979.00]
+
+  - .dir(W)
+  - _Boss::Talus::Luminous:
+      coord: [-2898.47, 305.79, 2210.99]
+
+  - BLSS .dir(SE)
+  - _Boss::Talus::Luminous:
+      coord: [-2096.46, 318.46, 3037.91]
+
+  - BLSS .dir(W):
+      notes: Use the glitched texture just west
+  - _Boss::Molduga:
+      coord: [-3799.06, 118.76, 3653.43]
+
+  - .dir(<W)
+  - _Boss::Molduga:
+      coord: [-4191.12, 126.91, 3797.45]
+
+  - .dir(NW)
+  - _Boss::Molduga:
+      coord: [-4555.62, 137.14, 3256.35]
+  
+  - .dir(NW)
+  - _Boss::Molduga:
+      coord: [-4832.61, 133.21, 2800.42]
+
+  - .dir(<E) + .dir(N) midair series
+  - _Boss::Talus::Frost:
+      movements:
+      - [-4270,2492]
+      - [-4312.07, 418.11, 1446.89]
+      
+
