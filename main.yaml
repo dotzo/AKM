@@ -2,6 +2,8 @@
 - Great Plateau:
   - SoR Clip + Start ToD:
       color: white
+      movements: 
+      - pop
   - _Material<Flint>:
       coord: [-954.90, 194.30, 1833.20]
       comment: For stealing Master Sword
@@ -64,12 +66,14 @@
       coord: [-813,1976]
 
 - The Glitch:
-  - BLSS to Kak:
+  - BLSS to Kak + WB .dir(<W) to Hilltop:
       color: cyan
 
   - _Chest<Phrenic Bow>
   - _Material<1 Blue Nightshade>:
-      coord: [1720.91, 323.75, 996.82]
+      movements:
+      - [1582,1079.5]
+      - [1720.91, 323.75, 996.82]
       notes: Scrap
       comment: ""
 
@@ -99,7 +103,7 @@
       comment: " "
       coord: [449.14, 251.18, -2159.93]
 
-  - .important(Drop Traveler's Bow, Equip Bomb Arrows, Put Woodcutter's Axe in Slot 2)
+  - .important(Drop Traveler's Bow, Equip Phrenic Bow, Equip Bomb Arrows, Put Woodcutter's Axe in Slot 2)
   - Steal the Master Sword with Wood + Flint
   - Inventory check for glitch:
       notes: 
@@ -126,7 +130,6 @@
       icon: ganon
       notes: 
       - Clear Skew and Ragdoll during Beast
-      - Eat Roasted Carrot and Empty Wild Greens before final shot
       - .important(After loosing final shot, equip Phrenic Bow before it hits)
   
   - Reload into Star save
@@ -134,7 +137,7 @@
   - Pick up 2 FDS, Reload:
       comment: 212 Attack, 10 shot zoom BoL
 
-- Northern Ridgeland:
+- To Castle Warp:
   - .dir(S) DEFUSE + .dir(N) midair:
       movements:
       - [-266.75,-963.25]
@@ -178,7 +181,7 @@
       comment: Hyrule Castle Underground
 
 
-- Lanayru 1:
+- To Talus Plateau Reload:
   - _Warp<Exit Castle, -254.75,-591.75>:
       icon: warp
       color: lightgreen
@@ -230,20 +233,20 @@
   
   - .dir(SW)
   - _Boss::Hinox::Blue:
-      coord: [3526.26, 251.18, 364.97]
+      movements: 
+      - [3526.26, 251.18, 364.97]
+      - push
   
   - BLSS .dir(E), .important(DO NOT LAND)
   - _Boss::Hinox::Blue:
-      movements:
-      - push
-      - [4442.00, 160.79, 350.94]
+      coord: [4442.00, 160.79, 350.94]
   
   - Save and Reload:
       movements:
       - pop
 
 
-- Lanayru 2 / Necluda Sea:
+- To Mapla Point Drown:
   - .dir(<W) Far:
       color: red
   - _Boss::Hinox::Blue:
@@ -277,7 +280,7 @@
       comment: Mapla Point
 
 
-- Necluda:
+- Laparoh Mesa Campfire:
   - Drown:
       color: pink
       movements:
@@ -443,9 +446,211 @@
       coord: [-4832.61, 133.21, 2800.42]
 
   - .dir(<E) + .dir(N) midair series
-  - _Boss::Talus::Frost:
+  - _Boss::Talus::Stone:
       movements:
       - [-4270,2492]
       - [-4312.07, 418.11, 1446.89]
+      comment: Rutimala Hill
+
+  - .dir(E.)
+  - _Boss::Talus::Frost:
+      coord: [-3558.72, 558.36, 1560.07]
+      comment: West Sapphia's Table
+
+  - .dir(<N)
+  - _Boss::Talus::Rare:
+      coord: [-3804.76, 602.57, 1204.77]
+      comment: West Vatorsa Snowfield
+
+  - .dir(E)
+  - _Boss::Talus::Frost:
+      coord: [-2919.99, 656.12, 1294.27]
+      comment: Laparoh Mesa
+
+  - _Tod::Night:
+      movements: 
+      - [-2908,1212.75]
+      - push
+      notes: If Lord of the Mountain is there, save and reload until he's gone
+
+- Central Reload:
+
+  - .important(During this next section, never touch valid ground\. We'll save reload back to here):
+      color: "#00DCDC"
+  - BLSS to Satori
+  - _Boss::Stalnox:
+      coord: [-2217.00, 372.31, 584.00]
+      comment: Satori Mountain
+
+  - .dir(W)
+  - _Boss::Talus::Rare:
+      coord: [-3137.50, 317.31, 72.90]
+      comment: Illumeni Plateau
+
+  - .dir(<E)
+  - _Boss::Hinox::Blue:
+      coord: [-2370.05, 261.70, -419.59]
+      comment: Seres Scablands
+
+  - .dir(E>)
+  - _Boss::Hinox::Blue:
+      coord: [-1534.88, 214.82, -171.59]
+      comment: West Hyrule Plains
+
+  - .dir(SE)
+  - _Boss::Hinox::Black:
+      coord: [-1177.05, 139.48, 118.51]
+      comment: "Giant's Forest"
+
+- Hebra Void:
+  - Save and reload after Hinox dies:
+      color: orange
+      movements:
+      - pop
+
+  - BLSS .dir(N) to Hebra
+  - _Boss::Talus::Frost:
+      coord: [-3073.50, 478.42, -2918.50]
+      comment: Coldsnap Hollow
+
+  - .dir(N) to a tree:
+      movements: 
+      - [-3013,-3163]
+      - push
+  - BLSS .dir(W>)
+  - _Boss::Stalnox:
+      movements:  
+      - [-4260.15, 327.00, -3777.48]
+
+- Tabantha Reload:
+  - Void back to tree:
+      movements:
+      - pop
+      - push
+      color: lightgreen
+      notes: .important(DO NOT TOUCH THE GROUND UNTIL THE SAVE RELOAD)
+  
+  - BLSS .dir(<W)
+  - _Boss::Hinox::Black:
+      coord: [-4531.00, 333.45, -2679.27]
+
+  - _Boss::Talus::Frost:
+      coord: [-3709.50, 331.28, -2347.00]
+      comment: West Rospro Pass
+
+  - _Boss::Talus::Rare:
+      coord: [-2864.50, 408.98, -1825.91]
+      comment: Tabantha Hills
+
+  - _Boss::Talus::Rare:
+      coord: [-3248.40, 291.68, -1078.12]
+      comment: Kolami Bridge South
+
+  - _Boss::Talus::Rare:
+      coord: [-3929.30, 197.19, -1083.48]
+      comment: Gisa Crater
+
+  - _Boss::Hinox::Black:
+      coord: [-3793.68, 246.02, -1557.10]
+
+- Typhlo Reload:
+  - Save and Reload back to Hebra:
+      movements:
+      - pop
+      color: red
+  
+  - _Boss::Talus::Frost:
+      coord: [-2144.88, 491.27, -3082.59]
+      comment: Pikida Stonegrove
+
+  - BLSS .dir(E) to Eldin, land on the spire far behind the enemy camp:
+      movements:
+      - [1019,-3204]
+      - push
+  
+  - .dir(E)
+  - _Boss::Hinox::Blue:
+      coord: [341.82, 278.73, -3116.14]
+      comment: Typhlo Ruins
+
+- Akkala Reload:
+  - Save and reload:
+      movements:
+      - pop
+      color: cyan
+
+  - _Boss::Talus::Igneo:
+      coord: [1336.10, 507.31, -3043.21]
+      comment: Darunia Lake
+
+  - .dir(E), land to set ground:
+      movements:
+      - [1641,-2900]
+      - push
+
+  - .dir(<S)
+  - _Boss::Talus::Igneo:
+      coord: [2141.56, 559.13, -2178.47]
+      comment: Gorko Lake
+
+  - .dir(W>>)
+  - _Boss::Talus::Igneo:
+      coord: [2372.52, 507.89, -1998.62]
+
+  - .dir(<E)
+  - _Boss::Talus::Igneo:
+      coord: [1795.54, 394.18, -1746.73]
+
+  - .dir(E.) Far
+  - _Boss::Hinox::Blue:
+      coord: [3288.75, 323.08, -1256.24]
+
+- Cleanup:
+  - Save and reload back:
+      movements:
+      - pop
+      color: lightgrey
+
+  - _Chest<Ice Arrows>:
+      notes: Before the wall loads in
+      coord: [1636,-2928]
+
+  - .dir(E)
+  - _Boss::Talus::Igneo:
+      coord: [2146.50, 535.83, -3011.50]
+      comment: Lake Darman
+
+  - .dir(NE)
+  - _Tod::Night:
+      coord: [2682.5,-3469.5]
+
+  - .dir(<E)
+  - _Boss::Hinox::Black:
+      coord: [2917.42, 343.68, -3561.40]
+
+  - .dir(W>)
+  - Activate Kilton:
+      coord: [3244.60, 82.63, -3448.81]
+      icon: npc
+  
+  - .dir(W>)
+  - _Boss::Hinox::Black:
+      coord: [3489.38, 179.10, -3335.79]
+
+  - BLSS .dir(<S)
+  - _Boss::Stalnox:
+      coord: [4146.69, 130.35, -2225.24]
+      comment: East Akkala Plain
+
+  - .dir(S)
+  - Pray for Medals:
+      coord: [4152.87, 194.63, -1597.24]
+      icon: npc
+    
+
+  
+
+  
+
       
 
