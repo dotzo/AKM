@@ -457,18 +457,22 @@
       notes: Use the glitched texture just west
   - _Boss::Molduga:
       coord: [-3799.06, 118.76, 3653.43]
+      comment: Southern Oasis
 
   - .dir(<W)
   - _Boss::Molduga:
       coord: [-4191.12, 126.91, 3797.45]
+      comment: "Arbiter's Grounds"
 
   - .dir(NW)
   - _Boss::Molduga:
       coord: [-4555.62, 137.14, 3256.35]
+      comment: "North Dragon's Exile"
   
   - .dir(NW)
   - _Boss::Molduga:
       coord: [-4832.61, 133.21, 2800.42]
+      comment: Toruma Dunes
 
   - .dir(<E) + .dir(N) midair series
   - _Boss::Talus::Stone:
@@ -546,6 +550,7 @@
   - _Boss::Stalnox:
       movements:  
       - [-4260.15, 327.00, -3777.48]
+      comment: Icefall Foothills
 
 - Tabantha Reload:
   - Void back to tree:
@@ -558,6 +563,7 @@
   - BLSS .dir(<W)
   - _Boss::Hinox::Black:
       coord: [-4531.00, 333.45, -2679.27]
+      comment: Hebra West Summit
 
   - _Boss::Talus::Frost:
       coord: [-3709.50, 331.28, -2347.00]
@@ -577,6 +583,7 @@
 
   - _Boss::Hinox::Black:
       coord: [-3793.68, 246.02, -1557.10]
+      comment: Lake Totori South
 
 - Typhlo Reload:
   - Save and Reload back to Hebra:
@@ -621,14 +628,17 @@
   - .dir(W>>)
   - _Boss::Talus::Igneo:
       coord: [2372.52, 507.89, -1998.62]
+      comment: Darb Pond
 
   - .dir(<E)
   - _Boss::Talus::Igneo:
       coord: [1795.54, 394.18, -1746.73]
+      comment: Goronbi Lake North
 
   - .dir(E.) Far
   - _Boss::Hinox::Blue:
       coord: [3288.75, 323.08, -1256.24]
+      comment: South Akkala Plains
 
 - Cleanup:
   - Save and reload back:
@@ -652,6 +662,7 @@
   - .dir(<E)
   - _Boss::Hinox::Black:
       coord: [2917.42, 343.68, -3561.40]
+      comment: East Gut Check Rock
 
   - .dir(W>)
   - Activate Kilton:
@@ -661,6 +672,7 @@
   - .dir(W>)
   - _Boss::Hinox::Black:
       coord: [3489.38, 179.10, -3335.79]
+      comment: Tempest Gulch
 
   - BLSS .dir(<S)
   - _Boss::Stalnox:
