@@ -207,19 +207,23 @@
   - .dir(S.)
   - _Boss::Hinox::Blue:
       coord: [626.49, 123.09, -305.54]
+      comment: Applean Forest
   
   - .dir(S>)
   - _Boss::Hinox::Blue:
       coord: [421.00, 161.27, 329.50]
       notes: Pick up a Hinox Part
+      comment: East Ranch Ruins
   
   - BLSS .dir(E) off tree stump
   - _Boss::Hinox::Red:
       coord: [1969.04, 115.44, 97.40]
+      comment: Kincean Island
   
   - .dir(<E)
   - _Boss::Hinox::Black:
       coord: [2485.10, 152.09, -133.56]
+      comment: Tabahl Woods
   
   - .dir(<E) High
   - _Boss::Hinox::Blue:
@@ -236,10 +240,12 @@
       movements: 
       - [3526.26, 251.18, 364.97]
       - push
+      comment: "Ja'Abu Ridge"
   
   - BLSS .dir(E), .important(DO NOT LAND)
   - _Boss::Hinox::Blue:
       coord: [4442.00, 160.79, 350.94]
+      comment: Talus Plateau
   
   - Save and Reload:
       movements:
@@ -251,10 +257,12 @@
       color: red
   - _Boss::Hinox::Blue:
       coord: [2990.90, 251.39, 787.92]
+      comment: "Trotter's Downfall"
   
   - .dir(<S)
   - _Boss::Hinox::Red:
       coord: [3250.94, 268.75, 1331.63]
+      comment: Purifier Lake
   
   - .dir(S) to Block Korok, BLSS .dir(S)
   - _Boss::Hinox::Red:
@@ -263,6 +271,7 @@
       - [3210.17, 172.01, 2996.33]
       - push
       notes: Shoot from above
+      comment: West Loshlo Harbor
   
   - .dir(S):
       notes: .important(DO NOT TOUCH THE FLOOR UNTIL NEXT WARP)
@@ -273,6 +282,7 @@
   - .dir(E.) midairs
   - _Boss::Hinox::Blue:
       coord: [4537.11, 110.76, 3701.95]
+      comment: Eventide Island
   
   - .dir(N) midairs
   - _Boss::Talus::Luminous:
@@ -289,14 +299,17 @@
   - .dir(W)
   - _Boss::Hinox::Blue:
       coord: [2693.70, 273.89, 2967.57]
+      comment: Mount Taran (Middle Kin)
   
   - .dir(W>)
   - _Boss::Hinox::Black:
       coord: [2420.75, 327.47, 2782.60]
+      comment: Mount Taran (Oldest Kin)
   
   - .dir(<E)
   - _Boss::Hinox::Red:
       coord: [2768.06, 258.13, 2711.58]
+      comment: Mount Taran (Youngest Kin)
   
   - .dir(N>) Far
   - _Boss::Talus::Stone:
@@ -311,6 +324,7 @@
   - .dir(N)
   - _Boss::Hinox::Red:
       coord: [2414.72, 304.69, 1177.84]
+      comment: Phalian Highlands
   
   - .dir(.W)
   - _Boss::Talus::Stone:
@@ -334,14 +348,17 @@
   - .dir(W>)
   - _Boss::Talus::Stone:
       coord: [1257.12, 355.80, 2176.52]
+      comment: Dueling Peaks South
   
   - .dir(S)
   - _Boss::Hinox::Red:
       coord: [1330.55, 180.38, 2623.94]
+      comment: "Tobio's Hollow"
   
   - .dir(.S)
   - _Boss::Hinox::Red:
       coord: [1493.39, 306.77, 3092.14]
+      comment: Kamah Plateau
   
   - .dir(E>) Super
   - _Boss::Stalnox:
@@ -361,6 +378,7 @@
   - .dir(W>)
   - _Boss::Hinox::Blue:
       coord: [1031.43, 127.22, 3496.26]
+      comment: Herin Lake
   - Pillar:
       coord: [895.25,3477]
       icon: diamond
@@ -407,26 +425,33 @@
   - .dir(.W)
   - _Boss::Talus::Stone:
       coord: [-1087.75, 179.14, 1663.18]
+      comment: Great Plateau
 
   - .dir(W)
   - _Boss::Hinox::Blue:
       coord: [-1704.30, 111.60, 1776.78]
+      comment: Digdogg Suspension Bridge
+      
 
   - .dir(S>) + .dir(<W)
   - _Boss::Talus::Luminous:
       coord: [-1896.00, 200.68, 2044.68]
+      comment: Mount Nabooru
 
   - .dir(W)
   - _Boss::Talus::Luminous:
       coord: [-2277.50, 293.77, 1979.00]
+      comment: South Koukot Plateau
 
   - .dir(W)
   - _Boss::Talus::Luminous:
       coord: [-2898.47, 305.79, 2210.99]
+      comment: South Taafei Hill
 
   - BLSS .dir(SE)
   - _Boss::Talus::Luminous:
       coord: [-2096.46, 318.46, 3037.91]
+      comment: "Champion's Gate North"
 
   - BLSS .dir(W):
       notes: Use the glitched texture just west
