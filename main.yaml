@@ -180,21 +180,19 @@
       coord: [-491.34, 126.08, -1009.82]
       comment: Hyrule Castle Underground
 
+  - Clip out and run .dir(E) to the Talus
+  - _Boss::Talus::Rare:
+      coord: [-136.65, 127.21, -956.26]
+      comments: Hyrule Castle Underground
+
+
 
 - To Talus Plateau Reload:
   - _Warp<Exit Castle, -254.75,-591.75>:
       icon: warp
       color: lightgreen
-  
-  - .dir(E) + .dir(N)
-  - Enter East Passage:
-      coord: [-101.5,-1147]
-  - _Boss::Talus::Rare:
-      coord: [-136.65, 127.21, -956.26]
-      comments: Hyrule Castle Underground
-  
-  - Glide up into the Library
-  - .dir(E)
+
+  - .dir(<E) Super
   - _Boss::Stalnox:
       coord: [256.50, 142.49, -913.50]
       comment: East Hyrule Castle
