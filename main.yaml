@@ -137,7 +137,7 @@
   - Pick up 2 FDS, Reload:
       comment: 212 Attack, 10 shot zoom BoL
 
-- To Castle Warp:
+- To Castle Talus:
   - .dir(S) DEFUSE + .dir(N) midair:
       movements:
       - [-266.75,-963.25]
@@ -180,19 +180,18 @@
       coord: [-491.34, 126.08, -1009.82]
       comment: Hyrule Castle Underground
 
-  - Clip out and run .dir(E) to the Talus
+  - Clip out, WB:
+      notes: Clear ragdoll, cryo block under high malice, aim to back fake texture, glide left hard, midair
   - _Boss::Talus::Rare:
       coord: [-136.65, 127.21, -956.26]
-      comments: Hyrule Castle Underground
+      comment: Hyrule Castle Underground
 
 
 
 - To Talus Plateau Reload:
-  - _Warp<Exit Castle, -254.75,-591.75>:
-      icon: warp
-      color: lightgreen
+  - Clip back in under the stairs
 
-  - .dir(<E) Super
+  - .dir(E) Super
   - _Boss::Stalnox:
       coord: [256.50, 142.49, -913.50]
       comment: East Hyrule Castle
