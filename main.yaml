@@ -84,7 +84,7 @@
   - _Material<1 Blue Nightshade>:
       notes: Get 1 more
       comment: " "
-  - _Material<3 Endura Carrot>:
+  - _Material<2 Endura Carrot>:
       comment: " "
       movements:
       - [1950.35, 270.12, 835.39]
@@ -93,9 +93,9 @@
       comment: " "
 
   - .dir(W)
-  - _Material<Silent Princess>:
+  - _Material<2 Silent Princess>:
       comment: " "
-      notes: Just 1 for check item
+      notes: Can also get in Korok Forest
       coord: [1873.25,813.25]
 
   - BLSS to Korok Forest
@@ -103,20 +103,10 @@
       comment: " "
       coord: [449.14, 251.18, -2159.93]
 
-  - .important(Drop Traveler's Bow, Equip Phrenic Bow, Equip Bomb Arrows, Put Woodcutter's Axe in Slot 2)
   - Steal the Master Sword with Wood + Flint
-  - Inventory check for glitch:
-      notes: 
-      - "Weapons: Spear, Axe, Master Sword"
-      - "Bows: Phrenic Bow, Arrow, Bomb Arrow"
-      - "Shields: Pot Lid, FDS"
-      - "Materials: 2 Shroom, 2 Nightshade, 2 Fairy, 3 Carrot, 1 Princess"
-  - Talk to the Shop Keeper, Trade 4 Orbs for Stamina:
-      comment: Triggers an Autosave to use
-
-
+ 
   - IST:
-      notes: .link([Detailed Instructions]https://docs.google.com/presentation/d/1nQt1a-0GoIxXWo4lrqls-PkAuvTQG1NtLPklqiu1BHE/edit?usp=sharing)
+      notes: .link([Detailed Instructions]https://docs.google.com/presentation/d/1M0_MiPPbuoAClNHITTrKH5wJ3aIPv064bcqqQGXIlM4/edit?usp=sharing)
       icon: maz
 
   - .dir(S>) to tree + .dir(S.) Super exit + Midairs
@@ -134,7 +124,7 @@
   
   - Reload into Star save
   - Sort Bows, Drop all Shields, SAVE
-  - Pick up 2 FDS, Reload:
+  - Pick up 3 shields, Reload:
       comment: 212 Attack, 10 shot zoom BoL
 
 - To Castle Talus:
