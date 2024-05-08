@@ -2,15 +2,13 @@
 - Great Plateau:
   - SoR Clip + Start ToD:
       color: white
-      movements: 
-      - pop
+  - _Equipment::Weapon<Tree Branch>:
+      coord: [-1034.19, 249.09, 1847.06]
   - _Material<Flint>:
       coord: [-954.90, 194.30, 1833.20]
       comment: For stealing Master Sword
   - _Equipment::Weapon<Woodcutters Axe>:
       coord: [-920.93, 220.65, 1871.83]
-  - _Equipment::Weapon<Boko Spear>:
-      coord: [-943.32, 238.76, 1952.53]
   - _Equipment::Shield<Pot Lid>:
       coord: [-952.34, 238.33, 1959.44]
   - _Material<6 Spicy Pepper>:
@@ -226,7 +224,6 @@
   - _Boss::Hinox::Blue:
       movements: 
       - [3526.26, 251.18, 364.97]
-      - push
       comment: "Ja'Abu Ridge"
   
   - BLSS .dir(E), .important(DO NOT LAND)
@@ -236,7 +233,7 @@
   
   - Save and Reload:
       movements:
-      - pop
+      - [3526.26, 251.18, 364.97]
 
 
 - To Mapla Point Drown:
@@ -256,7 +253,6 @@
       movements:
       - [3277.77, 346.35, 1436.00]
       - [3210.17, 172.01, 2996.33]
-      - push
       notes: Shoot from above
       comment: West Loshlo Harbor
   
@@ -281,7 +277,7 @@
   - Drown:
       color: pink
       movements:
-      - pop
+      - [3210.17, 172.01, 2996.33]
   
   - .dir(W)
   - _Boss::Hinox::Blue:
@@ -486,7 +482,6 @@
   - _Tod::Night:
       movements: 
       - [-2908,1212.75]
-      - push
       notes: If Lord of the Mountain is there, save and reload until he's gone
 
 - Central Reload:
@@ -522,7 +517,8 @@
   - Save and reload after Hinox dies:
       color: orange
       movements:
-      - pop
+        - to: [-2908,1212.75]
+          warp: true
 
   - BLSS .dir(N) to Hebra
   - _Boss::Talus::Frost:
@@ -532,7 +528,6 @@
   - .dir(N) to a tree:
       movements: 
       - [-3013,-3163]
-      - push
   - BLSS .dir(W>)
   - _Boss::Stalnox:
       movements:  
@@ -542,8 +537,8 @@
 - Tabantha Reload:
   - Void back to tree:
       movements:
-      - pop
-      - push
+      - to: [-3013,-3163]
+        warp: true
       color: lightgreen
       notes: .important(DO NOT TOUCH THE GROUND UNTIL THE SAVE RELOAD)
   
@@ -552,22 +547,27 @@
       coord: [-4531.00, 333.45, -2679.27]
       comment: Hebra West Summit
 
+  - .dir(E>) midair
   - _Boss::Talus::Frost:
       coord: [-3709.50, 331.28, -2347.00]
       comment: West Rospro Pass
 
+  - .dir(E>) midair
   - _Boss::Talus::Rare:
       coord: [-2864.50, 408.98, -1825.91]
       comment: Tabantha Hills
 
+  - .dir(S>) midair
   - _Boss::Talus::Rare:
       coord: [-3248.40, 291.68, -1078.12]
       comment: Kolami Bridge South
 
+  - .dir(W) midair
   - _Boss::Talus::Rare:
       coord: [-3929.30, 197.19, -1083.48]
       comment: Gisa Crater
 
+  - .dir(N) midair
   - _Boss::Hinox::Black:
       coord: [-3793.68, 246.02, -1557.10]
       comment: Lake Totori South
@@ -575,7 +575,8 @@
 - Typhlo Reload:
   - Save and Reload back to Hebra:
       movements:
-      - pop
+      - to: [-3013,-3163]
+        warp: true
       color: red
   
   - _Boss::Talus::Frost:
@@ -585,7 +586,6 @@
   - BLSS .dir(E) to Eldin, land on the spire far behind the enemy camp:
       movements:
       - [1019,-3204]
-      - push
   
   - .dir(E)
   - _Boss::Hinox::Blue:
@@ -595,7 +595,8 @@
 - Akkala Reload:
   - Save and reload:
       movements:
-      - pop
+      - to: [1019,-3204]
+        warp: true
       color: cyan
 
   - _Boss::Talus::Igneo:
@@ -605,7 +606,6 @@
   - .dir(E), land to set ground:
       movements:
       - [1641,-2900]
-      - push
 
   - .dir(<S)
   - _Boss::Talus::Igneo:
@@ -630,7 +630,8 @@
 - Cleanup:
   - Save and reload back:
       movements:
-      - pop
+      - to: [1641,-2900]
+        warp: true
       color: lightgrey
 
   - _Chest<Ice Arrows>:
@@ -667,7 +668,7 @@
       comment: East Akkala Plain
 
   - .dir(S)
-  - Pray for Medals:
+  - Sell 1 Monster part and Pray for Medals:
       coord: [4152.87, 194.63, -1597.24]
       icon: npc
     
