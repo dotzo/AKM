@@ -586,11 +586,14 @@
   - BLSS .dir(E) to Eldin, land on the spire far behind the enemy camp:
       movements:
       - [1019,-3204]
+      
   
   - .dir(E)
   - _Boss::Hinox::Blue:
       coord: [341.82, 278.73, -3116.14]
       comment: Typhlo Ruins
+      notes: .important(Do not touch the floor so we can save/load back to the spire)
+
 
 - Akkala Reload:
   - Save and reload:
@@ -606,6 +609,7 @@
   - .dir(E), land to set ground:
       movements:
       - [1641,-2900]
+      notes: .important(DO NOT TOUCH THE FLOOR UNTIL THE SAVE/RELOAD)
 
   - .dir(<S)
   - _Boss::Talus::Igneo:
