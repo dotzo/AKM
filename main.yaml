@@ -656,12 +656,12 @@
       coord: [2917.42, 343.68, -3561.40]
       comment: East Gut Check Rock
 
-  - .dir(W>)
+  - .dir(E>)
   - Activate Kilton:
       coord: [3244.60, 82.63, -3448.81]
       icon: npc
   
-  - .dir(W>)
+  - .dir(E>)
   - _Boss::Hinox::Black:
       coord: [3489.38, 179.10, -3335.79]
       comment: Tempest Gulch
