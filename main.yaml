@@ -616,7 +616,7 @@
       coord: [2141.56, 559.13, -2178.47]
       comment: Gorko Lake
 
-  - .dir(W>>)
+  - .dir(E>>)
   - _Boss::Talus::Igneo:
       coord: [2372.52, 507.89, -1998.62]
       comment: Darb Pond
